@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a51ceb1-cd5e-424f-83cc-35481e311d30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThousandPrograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThousandPrograms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +30,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/email using python.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThousandPrograms.py" />
   </component>
   <component name="RunManager">
-    <configuration name="email using python" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="ThousandPrograms" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,7 +45,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email using python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThousandPrograms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,13 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626693633333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="email using python">
+      <created>1626697606931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626697606931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commits for all" />
     <MESSAGE value="array coommiitt" />
     <MESSAGE value="readme update" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
+    <MESSAGE value="email using python" />
+    <option name="LAST_COMMIT_MESSAGE" value="email using python" />
   </component>
 </project>

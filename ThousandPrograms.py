@@ -1,7 +1,7 @@
 ############################import part
 import sys
 import random
-
+from copy import deepcopy
 
 
 
@@ -486,9 +486,39 @@ print(lettersValue[2:8:2])
 
 
 
+# from copy import deepcopy
+###################### imported on top
+
+deepcopyXValue = ['apple', 'banana', 'orange', 'pineapple']
+deepcopyYValue = deepcopy(deepcopyXValue)
+print("deepcopyXValue", deepcopyXValue)
+print("deepcopyYValue", deepcopyYValue)
 
 
+print("----------------------------------------------------------------------------------Join using Lists")
+JoinListsXValue = ['one', 'two and three', 'four', 'five']
 
+togetherJoinsValue = ':'.join(JoinListsXValue)
+print("'togetherJoinsValue using JOIN in Lists'", togetherJoinsValue)
+
+togetherJoinsValueAnother = ':?????'.join(JoinListsXValue)
+print("'togetherJoinsValue using JOIN in Lists'", togetherJoinsValueAnother)
+
+
+print("-------------------------------------------------------------- Two different list values")
+
+firstListUsingJoinValueStr = ["0", "a", "z", "9"]
+firstListUsingJoinValueNum = [0, "a", "z", 9]
+
+print(":".join(firstListUsingJoinValueStr))
+
+print("if we using number in list we cant use join along with string" 
+      " we have to use another method  ")
+
+print(":".join(map(str, firstListUsingJoinValueNum)))
+print("Or with list comprehension")
+
+print(":" .join(str(x) for x in firstListUsingJoinValueNum))
 
 
 
